@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.containers{
+    width: 100%;
+    height: 100vh;
+    background-image: url(loginimg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_box{
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    padding: 40px 90px;
+    opacity: 80%;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+#dnbjdnj{
+    width: 25px;
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: black;
+}
+
+#dnbjnjl{
+    width: 25px;
+    font-size: 25px;
+    position: absolute;
+    padding: 10px;
+    right: 10px;
+    top: 10px;
+    color: black;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
